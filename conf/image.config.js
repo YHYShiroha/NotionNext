@@ -13,7 +13,7 @@ module.exports = {
   RANDOM_IMAGE_REPLACE_TEXT:
     process.env.NEXT_PUBLIC_RANDOM_IMAGE_NOT_REPLACE_TEXT ||
     'images.unsplash.com', // 触发替换图片的 url 关键字(多个支持用英文逗号分开)，只有图片地址中包含此关键字才会替换为上方随机图片url
-    'https://uapis.cn',
+    'uapis.cn',
 
   // 网站图片
   IMG_LAZY_LOAD_PLACEHOLDER:
